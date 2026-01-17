@@ -11,8 +11,8 @@ jobs:
     name: Terraform Deployement
     runs-on: ubuntu-latest
     env:
-      TF_IN_AUTOMATION: "true"
-      TF_INPUT: "false"
+      TF_IN_AUTOMATION: true
+      TF_INPUT: false
 
     steps:
       - name: Checkout
