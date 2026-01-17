@@ -11,7 +11,7 @@ provider "aws" {
     region = "eu-west-1"
 }
 
-rerource "aws_instance" "new-node" {
+resource "aws_instance" "new-node" {
     ami           = "ami-03e091ef64f3907f8" # Amazon Linux 2 AMI
     instance_type = "t3.micro"
 
